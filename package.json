@@ -1,13 +1,13 @@
 {
     "name": "demo-deploy",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "scripts": {
         "ng": "ng",
         "start": "node server.js",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "heroku-postbuild": "construccion ng"
+        "heroku-postbuild": "ng build"
     },
     "private": true,
     "dependencies": {
